@@ -15,7 +15,7 @@ namespace teste2
             Console.WriteLine(Retorno());
         }
     }
-    class Exercicio2Metodo
+    class Program
     {
         static void Main(string[] args)
         {
