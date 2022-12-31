@@ -1,5 +1,5 @@
 using System;
-namespace teste
+namespace Metodo1
 {
     class Aluno
     {
@@ -7,7 +7,7 @@ namespace teste
         public int Idade;
         public int Serie;
     }
-    class Exercicio1Metodo{
+    class Program{
         static void AA(string[] args)
         {
         Aluno joao = new Aluno();
