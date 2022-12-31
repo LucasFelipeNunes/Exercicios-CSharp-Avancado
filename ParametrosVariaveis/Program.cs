@@ -1,6 +1,6 @@
 using System;
 
-namespace MyCompiler {
+namespace ParametrosVariaveis {
     class Program {
         public static void Despedida (params string [] alunos)
         {
