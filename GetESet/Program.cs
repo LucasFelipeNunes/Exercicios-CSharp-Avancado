@@ -1,10 +1,9 @@
-using System;
+﻿using System;
 namespace GetESet { //Corrigir Programa
-        public class Carro {
-            private string Marca; 
-            private string Nome; 
-            private double Potencia;
-        }
+    public class Carro {
+        private string Marca; 
+        private string Nome; 
+        private double Potencia;
         public Carro(string marca, string nome, double potencia) {
             Marca = marca; 
             Nome = nome; 
