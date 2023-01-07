@@ -1,26 +1,27 @@
-﻿using System;
-namespace GetESet { //Corrigir Programa
-    public class Carro {
-        private string Marca; 
-        private string Nome; 
-        private double Potencia;
-        public Carro(string marca, string nome, double potencia) {
-            Marca = marca; 
-            Nome = nome; 
-            Potencia - potencia;
-        }
-        public Carro()
-        {
-                
-        }
-        public string GetMarca() {
-            return Marca;
-        }
-        public void SetMarca(string marca) {
-            Marca = marca;
-        }
-        public string GetNome() {
-            return Nome;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace GetESet
+{
+    public class Program
+    {   
+        static void Main(string[] args){
+            Carro carro = new Carro();
+            
+            Console.Write("Digite o nome do carro: ");
+            carro.setNome(Console.ReadLine());
+
+            Console.Write("Digite a marca do carro: ");
+            carro.setMarca(Console.ReadLine());
+
+            Console.Write("Digite a potencia do carro: ");
+            carro.setPotencia(double.Parse(Console.ReadLine()));
+
+            Console.WriteLine("Nome: " + carro.getNome());
+            Console.WriteLine("Marca: " + carro.getMarca());
+            Console.WriteLine("Potencia: " + carro.getPotencia());
         }
     }
 }
