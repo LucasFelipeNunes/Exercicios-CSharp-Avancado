@@ -1,19 +1,20 @@
 ﻿using System;
 namespace Construtores
 {
-	class Program
+	class Carro
 	{
-		public string Nome;
+        public string Nome;
 		public string Marca;
 		public double Potencia;
-		public Carro(string nome, string marca, double potencia)
+	
+    	public Carro(string nome, string marca, double potencia)
 		{
 			Nome = nome;
 			Marca = marca;
 			Potencia = potencia;
 		}
-		public Carro()
-		{
+		public Carro(){
+            
 		}
         static void Main(string[] args)
         {
